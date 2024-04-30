@@ -3,29 +3,33 @@
 using namespace std;
 
 class Solution{
-public:
-    bool isValid(string s) {
-        stack <char> s1;
-        for(int i = 0; i < s.length(); i++){
-            if(s[i] == '(' || s[i] == '[' || s[i] == '{'){
-                s1.push(s[i]);
+    public:
+        bool isValid(string input) {
+        // Create a stack to store opening parentheses
+        stack<char> s;
+
+        // Loop through each character in the input string
+        for (int i = 0; i < input.length(); i++) {
+            // If the current character is an opening parenthesis, push it onto the stack
+            if (input[i] == '(' || input[i] == '[' || input[i] == '{') {
+            s.push(input[i]);
+        }
+        else{ // If the character is a closing parenthesis
+        // Check if the stack is empty (unmatched closing parenthesis)
+            if(s.empty()){
+                return false;
+            } 
+            // Check if the closing parenthesis matches the top element on the stack
+            else if((s.top() == '(' && input[i] == ')') || (s.top() == '{' && input[i] == '}') || (s.top() == '[' && input[i] == ']')) {
+                // Pop if the opening and closing parenthesis if they match
+                s.pop();
             }
-            if(s1.empty()){
+            else{ // Mismatched closing parenthesis
                 return false;
             }
-            if((s1.top() == '(' && s[i] == ')') || (s1.top() == '{' && s[i] == '}') || (s1.top() == '[' && s[i] == ']')){
-                s1.pop();
-                s1.pop();
-            }
-            else{
-                s1.push(s[i]);
-            }
         }
-        if(s1.empty()){
-            return true;
-        }
-        else{
-            return false;
-        }
+    }
+    // If the stack is empty at the end, all parentheses are matched and valid
+    return s.empty();
     }
 };
