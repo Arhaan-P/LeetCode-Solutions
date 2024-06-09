@@ -4,6 +4,6 @@ class Solution:
             return False
         elif n == 1:
             return True
-        while(n %4 == 0):
+        while(n % 4 == 0):
             n /= 4
         return n == 1
