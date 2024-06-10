@@ -47,6 +47,12 @@ This repository contains solutions to various Leetcode problems implemented in P
 41. [Reverse Words in a String III](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III)
 42. [Binary Search](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/704.%20Binary%20Search)
 43. [Squares of a Sorted Array](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/977.%20Squares%20of%20a%20Sorted%20Array)
+338. [Counting Bits](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/338.%20Counting%20Bits)
+405. [Convert a Number to Hexadecimal](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/405.%20Convert%20a%20Number%20to%20Hexadecimal)
+412. [Fizz Buzz](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/412.%20Fizz%20Buzz)
+434. [Number of Segments in a String](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/434.%20Number%20of%20Segments%20in%20a%20String)
+551. [551. Student Attendance Record I](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/551.%20Student%20Attendance%20Record%20I)
+     
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
