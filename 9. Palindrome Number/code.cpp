@@ -1,4 +1,3 @@
-#include <stdbool.h>
 bool isPalindrome(int x) {
     long long int rev = 0;
     int og = x;

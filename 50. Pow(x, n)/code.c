@@ -1,4 +1,3 @@
-#include <limits.h>
 double myPow(double x, int n) {
     long long exp = n;
     if(x == 1 | n == 0){

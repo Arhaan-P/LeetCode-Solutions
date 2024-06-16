@@ -1,6 +1,3 @@
-#include <iostream>
-#include <cmath>
-
 class Solution {
 public:
     bool isPowerOfThree(int n) {
