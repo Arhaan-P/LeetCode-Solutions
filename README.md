@@ -51,7 +51,7 @@ This repository contains solutions to various Leetcode problems implemented in P
 405. [Convert a Number to Hexadecimal](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/405.%20Convert%20a%20Number%20to%20Hexadecimal)
 412. [Fizz Buzz](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/412.%20Fizz%20Buzz)
 434. [Number of Segments in a String](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/434.%20Number%20of%20Segments%20in%20a%20String)
-551. [551. Student Attendance Record I](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/551.%20Student%20Attendance%20Record%20I)
+551. [Student Attendance Record I](https://github.com/Arhaan-P/LeetCode-Solutions/tree/main/551.%20Student%20Attendance%20Record%20I)
      
 
 ## Contributing
