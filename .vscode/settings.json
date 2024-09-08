@@ -2,6 +2,10 @@
     "files.associations": {
         "vector": "cpp",
         "iostream": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "functional": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
     }
 }
